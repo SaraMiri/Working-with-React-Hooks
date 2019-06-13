@@ -1,10 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import State from "./State"
 import "./styles.css"
 
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <State/>
+      <hr/>
+    </div>
   )
 }
 
