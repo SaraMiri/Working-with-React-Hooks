@@ -1,13 +1,11 @@
-import React , { useState } from "react"
+import React,  {useState } from "react"
 
 const StateComponent = () => {
-  const [isGreen, setIsGreen] = useState(true)
-return  (
-<h1 onClick= {() =>setIsGreen(!isGreen)} 
-style={{color:isGreen ?"limegreen": "crimson"}} >
-  useState example</h1>
-)
-}
+  const [isGreen, setIsgreen] = useState(true);
 
-export default StateComponent
+  return ( <h1 onClick={() => setIsgreen(!isGreen)}
+  style={{color: isGreen ? "limeGreen" : "crimson"}}>useState Example</h1>);
+};
+
+export default StateComponent;
 
