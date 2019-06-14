@@ -1,4 +1,4 @@
-import React,  {useState } from "react"
+import React,  { useState } from "react"
 
 const StateComponent = () => {
   const [isGreen, setIsgreen] = useState(true);

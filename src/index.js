@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import State from "./State"
 import Effect from "./Effect"
+import Context from "./Context"
 import "./styles.css"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <hr/>
       <Effect/>
       <hr/>
+      <Context/>
     </div>
   )
 }
