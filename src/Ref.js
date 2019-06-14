@@ -5,7 +5,7 @@ const RefComponent = () => {
   const numRef= useRef(0)
 
   function incrementAndDelayLogging () {
-   setStateNumber(stateNumber);
+   setStateNumber(stateNumber  +1);
    numRef.current++;
    setTimeout(
      () => alert(`state: ${stateNumber}| ref: ${numRef.current}`), 
