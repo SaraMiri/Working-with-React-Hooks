@@ -1,6 +1,6 @@
 import React, {useReducer} from "react"
 
-const limitRGB = num => (num < 0 ? 0 : num > 255 ? 255 : num)
+const limitRGB = num => num;
 const step = 50;
 
 const reducer = (state, action) => {
