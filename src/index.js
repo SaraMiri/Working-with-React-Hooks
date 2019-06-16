@@ -6,6 +6,7 @@ import Context from "./Context"
 import Ref from "./Ref"
 import Reducer from "./Reducer"
 import Memo from "./Memo"
+import CallBack from "./Callback"
 import "./styles.css"
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <Reducer/>
       <hr/>
       <Memo/>
+      <hr/>
+      <CallBack/>
     </div>
   )
 }

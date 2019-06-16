@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Project from @btholt's course: [Complete intro to react v5, hooks in depth](https://btholt.github.io/complete-intro-to-react-v5/hooks-in-depth)
+Project from [@btholt's course](https://github.com/btholt): [Complete intro to react v5, hooks in depth](https://btholt.github.io/complete-intro-to-react-v5/hooks-in-depth)
 
 ## Available Scripts
 
