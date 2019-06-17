@@ -7,6 +7,8 @@ import Ref from "./Ref"
 import Reducer from "./Reducer"
 import Memo from "./Memo"
 import CallBack from "./Callback"
+import LayoutEffect from "./LayoutEffect";
+
 import "./styles.css"
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
       <Memo/>
       <hr/>
       <CallBack/>
+      <hr/>
+      <LayoutEffect/>
     </div>
   )
 }
