@@ -8,7 +8,7 @@ import Reducer from "./Reducer"
 import Memo from "./Memo"
 import CallBack from "./Callback"
 import LayoutEffect from "./LayoutEffect";
-
+import ImperativeHandle from "./ImperativeHandle"
 import "./styles.css"
 
 function App() {
@@ -29,6 +29,8 @@ function App() {
       <CallBack/>
       <hr/>
       <LayoutEffect/>
+      <hr/>
+      <ImperativeHandle/>
     </div>
   )
 }
